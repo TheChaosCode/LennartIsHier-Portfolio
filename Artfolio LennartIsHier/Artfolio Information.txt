@@ -1,0 +1,44 @@
+============================================================================
+LINKS
+============================================================================
+Art Icon.png		 - links to: 'www.lennartishier.net'
+Behance Icon.png 	 - links to: 'www.behance.net/iroxsofficaf28'
+BitCheck Icon.png	 - links to: 'www.bitcheck.eu'
+CEC Icon.png		 - links to: 'www.creativecenter.one'
+Facebook Icon.png 	 - links to: 'www.facebook.com/LennartIsHier01'
+Instagram Icon.png	 - links to: 'www.instagram.com/lennartishier'
+Mail Icon.png		 - links to: 'mailto:contact@lennartishier.net'
+Mon Reve Icon.png 	 - links to: 'www.monrevemilsbeek.net'
+Snapchat Icon.png	 - links to: 'www.snapchat.com/add/lennartishier'
+Spotify Icon.png	 - links to: 'open.spotify.com/user/1175580734/playlist/6Dnz01475pygPX7BiAD7Yo'
+
+============================================================================
+FONTS
+============================================================================
+Typography PRO Semibold wordt het meest gebruikt.
+
+============================================================================
+COLOR HEX (OPACITY)
+============================================================================
+#FFFFFF (100%)
+#FFFFFF (10%) HOVERMODE BUTTONS 1 & 2
+#FFFFFF (20%)
+#CCCCCC (100%)
+#CCCCCC (34%) BACKGROUND OVERLAY 'ABOUT'
+#22C2A2 (100%)
+#22C2AC (20%) BACKGROUND OVERLAY 'CONTACT'
+#22C2AC (50%)
+#313131 (100%)
+#313131 (10%) HOVERMODE BUTTON 3 (BOTTOM)
+#313131 (87%) BACKGROUND OVERLAY 'HOME'
+#313131 (20%)
+
+============================================================================
+HOVER MODE
+============================================================================
+Icons in '2 Mockup HOVERMODE.png' worden iets groter,
+smooth groter worden, zodra geen hover meer
+ook weer smooth terug naar originele grootte.
+
+Buttons lichten smooth wat op, geen hover meer ook weer
+terug in normale opacity/color. Hover kleur buttons #HEX(10%)

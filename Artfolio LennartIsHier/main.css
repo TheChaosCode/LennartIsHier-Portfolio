@@ -1,0 +1,277 @@
+@font-face {
+    font-family: typograph;
+    src: url("./Artfolio_FontWorld/TYPOGRAPHPROSemiBold.ttf");
+}
+@font-face {
+    font-family: typograph-light;
+    src: url("./Artfolio_FontWorld/TYPOGRAPHPROLight.ttf");
+}
+
+* {padding: 0px; margin: 0px;}
+body {font-family: typograph; text-align: center; color: #fff; scroll-behavior: smooth;}
+section {min-height: 400px;}
+
+h1 {font-size: 55px;}
+h2 {font-size: 40px; padding-bottom: 40px;}
+h3 {font-size: 30px;}
+p {font-size: 17px; font-family: typograph-light; margin: 30px 0px;}
+a {font-size: 20px; font-family: typograph-light; font-weight: bold;}
+
+.body1 {min-height: 400px; height: 100vh; background-image: url("./Artfolio_Background/Background1.jpg"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;}
+.section1 {height: 100vh; background-image: url("./Artfolio_Background/Background2.jpg"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;}
+.section2 {height: 50vh; background-image: url("./Artfolio_Background/Background3.jpg"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;}
+.section3 {height: 50vh; background-image: url("./Artfolio_Background/Background4.jpg"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;}
+.section4 {background-image: url("./Artfolio_Background/pattern.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;}
+.article1 {position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+
+.body1_overlay {height: 100%; background: rgba(49, 49, 49, 0.87);}
+.section1_overlay {height: 100%; background: rgba(204, 204, 204, 0.34);}
+.section2_overlay {height: 100%; background: rgba(204, 204, 204, 0.43);}
+.section3_overlay {height: 100%; background: rgba(34, 194, 162, 0.84);}
+
+.icon_selection {width: 19%; max-width: 220px; display: inline-block;}
+.icons {margin: auto;}
+.icon {width: 100%; max-width: 150px; transition: .2s ease-in-out;}
+.icon:hover {transform: scale(1.2);}
+
+.button1 {color: #ffffff; text-decoration: none; display: block; transition: .2s ease-in-out; margin: 30px auto; padding-top: 2px; width: 180px; height: 28px; border: 2px solid #22C2A2; border-radius: 50px;}
+.button2 {color: #313131; text-decoration: none; display: block; transition: .2s ease-in-out; margin: 30px auto; padding-top: 2px; width: 280px; height: 28px; border: 2px solid #22C2A2; border-radius: 50px;}
+.button1:hover {background: rgba(34, 194, 162, .1);}
+.button2:hover {background: rgba(34, 194, 162, .1);}
+
+
+/* HEADER */
+
+.main_logo {
+    position: absolute;
+    left: 3%;
+    top: 30px;
+    height: 60px;
+}
+
+.header {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    min-height: 400px;
+}
+.title_button {
+    height: 70%;
+    position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+.header_title {
+    position: relative;
+    top: 20%;
+}
+#header_button {
+    position: relative;
+    top: 20%;
+}
+.mouse_click {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    margin-left: -20px;
+    display: block;
+    width: 40px;
+}
+.mouse {
+    width: 40px;
+    opacity: 0.2;
+}
+
+/* ARTWORKS */
+
+.section4 {
+    color: #313131;
+    padding: 50px 0px 20px 0px;
+}
+
+.up {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    transition: .2s ease-in-out;
+
+    background-image: url("./Artfolio_Media_2.0/upblack.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.up:hover {
+    background-image: url("./Artfolio_Media_2.0/upgreen.png");
+}
+
+
+/* FOOTER */
+
+.footer {
+    background: #313131;
+}
+.footer h5 {
+    font-family: typograph-light;
+    font-size: 15px;
+    padding: 20px 0px;
+}
+
+
+
+.row > .column {
+    padding: 0 8px;
+}
+
+.row {
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    display: inline-block;
+    width: 15%;
+    border: 10px solid #fff;
+    margin: 50px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.05);
+    transition: .2s;
+    background: #fff;
+}
+.column:hover {
+    transform: scale(1.1);
+}
+.column img {
+    width: 100%;
+    margin: auto;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 25%;
+    top: 5%;
+    width: 50%;
+    height: 50%;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+    color: #313131;
+    position: absolute;
+    bottom: -8px;
+    margin: auto;
+    font-size: 40px;
+    transition: .2s;
+}
+
+.close:hover,
+.close:focus {
+    color: #22C2A2;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+    padding: 30px;
+    background: #fff;
+    border: 2px solid #22C2A2;
+}
+
+.cursor {
+    cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #313131;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .2s;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: -5px;
+}
+.prev {
+    left: -5px;
+}
+
+.prev:hover,
+.next:hover {
+    color: #22C2A2;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+img {
+    margin-bottom: -4px;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+.portfolioproject_overlay {
+    background: black;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    background: transparent;
+    transition: .2s ease-in-out;
+}
+.portfolioproject_overlay:hover {
+    background: rgba(35, 35, 35, 0.51);
+}
+.portfolioproject_overlay:hover h3 {
+    color: #fff;
+}
+.portfolioproject_overlay h3 {
+    color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

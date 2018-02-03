@@ -1,0 +1,45 @@
+@font-face {
+    font-family: typograph;
+    src: url("./FontWorld/TYPOGRAPH PRO Light.ttf");
+}
+@font-face {
+    font-family: typograph-bold;
+    src: url("./FontWorld/TYPOGRAPH PRO Semi Bold.ttf");
+}
+
+* {padding: 0px; margin: 0px;}
+body {color: #fff; text-align: center; font-family: typograph;}
+h1 {font-size: 50px; font-family: typograph-bold;}
+
+.body1 {position: relative; height: 100vh; background-image: url("./Pictures/Background.jpg"); background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;}
+.center {position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.dylanishier {width: 100%; opacity: 0.07; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -40%);}
+.main_logo {position: absolute; left: 3%; top: 30px; height: 60px;}
+.header {height: 100%; background-color: rgba(49, 49, 49, 0.87);}
+
+.nav {position: absolute; right: 0px; margin: 20px;}
+.icon {height: 60px; transition: .2s}
+.icon:hover {transform: scale(1.2);}
+
+.Artfolio {
+    display: block;
+    padding-top: 2px;
+    color: #fff;
+    text-decoration: none;
+    width: 180px;
+    height: 28px;
+    border: 2px solid #DC3D5E;
+    border-radius: 50px;
+    margin: 30px auto;
+    transition: .2s ease-in-out;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Artfolio:hover {
+    background-color: rgba(220, 61, 94, 0.1);
+}
+.footer p {
+    padding: 20px 0px;
+    background: #313131;
+    font-size: 20px;
+}
